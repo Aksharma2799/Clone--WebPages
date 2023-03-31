@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+/* Navbar */
+nav {
+  display: flex;
+  background: rgb(255, 255, 255, 0.9);
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid rgb(247, 246, 246, 0.8);
+}
+
+.logo img {
+  width: 250px;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  position: relative;
+  align-items: center;
+  top: 1.2rem;
+  left: 50%;
+  margin: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.btn {
+  position: relative;
+  align-items: center;
+  top: 0.4rem;
+  left: 25%;
+}
+button {
+  padding: 12px 25px;
+  margin: 7px;
+  width: 150px;
+  border: 1px solid rgb(88, 88, 243);
+  border-radius: 7px;
+  font: 20px;
+  font-weight: 700;
+}
+
+.dashboard {
+  background-color: transparent;
+}
+
+.login {
+  color: white;
+  border: 1px solid rgb(88, 88, 243);
+  background-color: rgb(88, 88, 243);
+}
+
+/* ********************************************* */
+/* main */
+main {
+  /* background-image: radial-gradient(white,pink); */
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  z-index: -1;
+}
+
+.left {
+  position: relative;
+  left: 3%;
+  top: 10rem;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+span {
+  color: rgb(88, 88, 243);
+}
+.sub-title {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.824);
+}
+
+.right img {
+  position: relative;
+  left: 50%;
+  top: 12rem;
+  width: 550px;
+  height: 430px;
+}
+.main-btn {
+  position: relative;
+  left: 1%;
+  padding-top: 2rem;
+}
+
+/* ************************************ */
+
+#first {
+  position: absolute;
+  top: 150%;
+  width: 100%;
+}
+.social {
+  position: relative;
+  display: flex;
+  color: white;
+  background-color: rgb(88, 88, 243);
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  padding: 5rem;
+  text-align: center;
+}
+h2 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+#second .text {
+  text-align: center;
+}
+#second .text p {
+  color: rgb(88, 88, 243);
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+#second .text h2 {
+  line-height: 1.5em;
+}
+/* ****************************************** */
+/* container */
+
+.container {
+  display: flex;
+  text-align: center;
+  margin: 20px;
+}
+.container .ds h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.container .ds p {
+  font-weight: 500;
+  line-height: 25px;
+}
+.ds {
+  margin: 10px;
+  padding: 35px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-bottom: 3px solid rebeccapurple;
+}
+
+.container img {
+  width: 70px;
+  height: 70px;
+}
+
+/* ****************************************** */
+/* <!-- Instructor --> */
+
+.instructor h2 {
+  margin-left: 3%;
+}
+
+hr {
+  width: 95%;
+}
+.instructor .love {
+  color: rgb(88, 88, 243);
+}
+
+.instructor img {
+  margin-top: 3rem;
+  border-radius: 50%;
+}
+.instructor .name {
+  font-size: 36px;
+  font-weight: bold;
+}
+.instructor .desgination {
+  color: rgb(67, 73, 80);
+  font-size: 26px;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 3rem;
+}
+
+/* ****************************************** */
+
+footer {
+  padding-top: 3rem;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(88, 88, 243);
+ 
+}
+.footer{
+  text-align: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+.footer .white{
+  color: white;
+}
+.footer .white p{
+  color: white;
+  padding-top: 17px;
+}
+
+
+/* Responsibe */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
